@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Author: hasee
-# @Date:   2017-10-24 23:16:38
-# @Last Modified by:   hasee
-# @Last Modified time: 2017-10-24 23:21:59
-
 # Copyright 2015 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
