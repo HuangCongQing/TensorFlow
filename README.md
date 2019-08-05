@@ -17,6 +17,8 @@ TensorFlow学习的一些练习代码
 
 #### [视频·google基于tensorflow的机器学习课程(免费中文)](https://developers.google.cn/machine-learning/crash-course/)
 
+* 机器学习术语表：https://developers.google.cn/machine-learning/glossary/
+
 * [框架处理（15 分钟）机器学习中的监督学习](./google_tensorflow/01框架处理.md)
 * 深入了解机器学习（20 分钟）什么是损失函数，权重和 bias 是什么
 * 降低损失（60 分钟）两种梯度下降，及对学习率的实验
