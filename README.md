@@ -1,8 +1,8 @@
 # TensorFlow
 TensorFlow学习的一些练习代码
 
-官网：https://tensorflow.org
-中文社区：http://www.tensorfly.cn/
+* 官网：https://tensorflow.org
+* 中文社区：http://www.tensorfly.cn/
 
 
 
@@ -21,6 +21,7 @@ TensorFlow学习的一些练习代码
 >学於20190805
 
 * [bilibili视频·莫凡-tensorflow搭建自己的神经网络](https://www.bilibili.com/video/av16001891?zw)
+
 视频发布很早，但对应讲解莫凡大佬[github代码](https://github.com/MorvanZhou/Tensorflow-Tutorial)有更新，所以，看视频的时候，代码还是看github上的吧
 >学於201710
 
