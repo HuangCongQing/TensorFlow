@@ -5,6 +5,16 @@ TensorFlow学习的一些练习代码
 中文社区：http://www.tensorfly.cn/
 
 
+
+
+
+![tensors_flowing](http://www.tensorfly.cn/images/tensors_flowing.gif)
+
+
+
+
+
+
 ### Tutorial(教程)
 
 * [视频·google基于tensorflow的机器学习课程(免费中文)](https://developers.google.cn/machine-learning/crash-course/)
