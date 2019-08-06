@@ -3,7 +3,7 @@ TensorFlow学习的一些练习代码
 
 * 官网：https://tensorflow.org
 * 中文社区：http://www.tensorfly.cn/
-
+* tensorflow2.0 beta :https://www.tensorflow.org/beta/
 
 
 
@@ -58,10 +58,11 @@ TensorFlow学习的一些练习代码
 
 #### [bilibili视频·tensorflow2.0入门与实战 2019年](https://www.bilibili.com/video/av62215565?from=search&seid=1287497745063342076)
 
-
-
-
-
+* tensorflow2.0 beta :https://www.tensorflow.org/beta/
+    * 第一个巨大差异：移除tf.get_variable, tf.variable_scope, tf.layers，强制转型到基于Keras的方法，也就是用tf.keras。
+    * 训练方面：使用keras和eager execution（动态图机制）
+    * 服务器，边缘设备，网页，any语言0rp平台，皆可训练部署模型
+    * tf.leras,Eager模式和自定义训练说,tf.data，tf.function(自动图运算)。模型保存于可视化，Tensorboard可视化
 
 
 
