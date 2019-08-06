@@ -2,7 +2,7 @@
 TensorFlow学习的一些练习代码
 
 官网：https://tensorflow.org
-
+中文社区：http://www.tensorfly.cn/
 
 
 ### Tutorial(教程)
