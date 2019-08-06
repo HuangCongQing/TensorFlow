@@ -60,10 +60,25 @@ TensorFlow学习的一些练习代码
 
 * tensorflow2.0 beta :https://www.tensorflow.org/beta/
     * 第一个巨大差异：移除tf.get_variable, tf.variable_scope, tf.layers，强制转型到基于Keras的方法，也就是用tf.keras。
-    * 训练方面：使用keras和eager execution（动态图机制）
+    * 训练方面：使用keras和eager execution（动态图机制）(eager notebook开发更好)
     * 服务器，边缘设备，网页，any语言0rp平台，皆可训练部署模型
-    * tf.leras,Eager模式和自定义训练说,tf.data，tf.function(自动图运算)。模型保存于可视化，Tensorboard可视化
+    * tf.keras,Eager模式和自定义训练说,tf.data，tf.function(自动图运算)。模型保存于可视化，Tensorboard可视化
 
+### install
+
+* 安装CPU版本
+`pip install tensorflow==2.0.0-alpha0`
+
+2019年7月新发布beta0
+`pip install tensorflow==2.0.0-beta0`
+
+推荐：用豆瓣源安装多个python包(含tensorflow2.0
+
+`pip install numpy pandas matplotlib sklearn tensorflow==2.0.0-alpha0 -i https://pypi.doubanio.com/simple/`
+
+* 安装GPU版本（CUDA，cuDNN已安装）
+
+`pip install numpy pandas matplotlib sklearn tensorflow==2.0.0-alpha0 -i https://pypi.doubanio.com/simple/`
 
 
 
