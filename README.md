@@ -12,7 +12,7 @@ TensorFlow学习的一些练习代码
 
 
 
-
+入门文档（未看）：https://tf.wiki/zh/basic.html
 
 
 ### Tutorial(教程)
