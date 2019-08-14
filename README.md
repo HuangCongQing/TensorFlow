@@ -58,11 +58,13 @@ TensorFlow学习的一些练习代码
 
 #### [bilibili视频·tensorflow2.0入门与实战 2019年](https://www.bilibili.com/video/av62215565?from=search&seid=1287497745063342076)
 
+* tensorflow2.0教程文档：https://github.com/czy36mengfei/tensorflow2_tutorials_chinese
 * tensorflow2.0 beta :https://www.tensorflow.org/beta/
     * 第一个巨大差异：移除tf.get_variable, tf.variable_scope, tf.layers，强制转型到基于Keras的方法，也就是用tf.keras。
     * 训练方面：使用keras和eager execution（动态图机制）(eager notebook开发更好)
     * 服务器，边缘设备，网页，any语言0rp平台，皆可训练部署模型
     * tf.keras,Eager模式和自定义训练说,tf.data，tf.function(自动图运算)。模型保存于可视化，Tensorboard可视化
+
 
 ### install
 
@@ -80,6 +82,8 @@ TensorFlow学习的一些练习代码
 
 `pip install numpy pandas matplotlib sklearn tensorflow==2.0.0-alpha0 -i https://pypi.doubanio.com/simple/`
 
+
+* [03机器学习原理-线性回归](./tensorflow2.0/)
 
 
 
