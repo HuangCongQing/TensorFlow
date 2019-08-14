@@ -5,7 +5,7 @@ TensorFlow学习的一些练习代码
 * 中文社区：http://www.tensorfly.cn/
 * tensorflow2.0 beta :https://www.tensorflow.org/beta/
 
-
+* 查看jupyternotebook：https://nbviewer.jupyter.org/
 
 
 ![tensors_flowing](http://www.tensorfly.cn/images/tensors_flowing.gif)
