@@ -3,7 +3,7 @@ TensorFlow学习的一些练习代码
 
 本文tf1.x版本：'1.14.0' py35
 
-* 个人笔记：https://www.yuque.com/huangzhongqing/tensorflow
+* 个人语雀笔记：https://www.yuque.com/huangzhongqing/tensorflow
 
 * jupyter运行：在本目录终端运行`jupyter-notebook`命令来打开http://localhost:8888/tree
 
@@ -69,6 +69,14 @@ TensorFlow学习的一些练习代码
     * 训练方面：使用keras和eager execution（动态图机制）(eager notebook开发更好)
     * 服务器，边缘设备，网页，any语言0rp平台，皆可训练部署模型
     * tf.keras,Eager模式和自定义训练说,tf.data，tf.function(自动图运算)。模型保存于可视化，Tensorboard可视化
+
+
+
+#### [bilibili-深度学习框架Tensorflow学习与应用](https://www.bilibili.com/video/BV1kW411W7pZ)[初学2020.07][tf1.x][13.5h]
+
+
+
+
 
 
 ### install
