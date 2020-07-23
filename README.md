@@ -1,6 +1,9 @@
 # TensorFlow
 TensorFlow学习的一些练习代码
 
+tf版本：'1.14.0' py35
+
+
 * 运行：在本目录终端运行`jupyter-notebook`命令来打开http://localhost:8888/tree
 
 * 官网：https://tensorflow.org
