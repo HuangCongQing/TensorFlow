@@ -1,19 +1,19 @@
 # TensorFlow
 TensorFlow学习的一些练习代码
 
-tf版本：'1.14.0' py35
+本文tf1.x版本：'1.14.0' py35
 
+* 个人笔记：https://www.yuque.com/huangzhongqing/tensorflow
 
-* 运行：在本目录终端运行`jupyter-notebook`命令来打开http://localhost:8888/tree
+* jupyter运行：在本目录终端运行`jupyter-notebook`命令来打开http://localhost:8888/tree
 
-* 官网：https://tensorflow.org
-* 中文社区：http://www.tensorfly.cn/
-* tensorflow2.0 beta :https://www.tensorflow.org/beta/
-
+* 官网：https://www.tensorflow.org/
+    * github： https://github.com/tensorflow
+    * tensorflow2.0 beta教程 :https://www.tensorflow.org/beta/
 * 查看jupyternotebook：https://nbviewer.jupyter.org/
 
 
-![tensors_flowing](http://www.tensorfly.cn/images/tensors_flowing.gif)
+![tensors_flowing图](https://www.tensorflow.org/images/tensors_flowing.gif)
 
 
 
