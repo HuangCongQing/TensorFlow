@@ -11,7 +11,7 @@ TensorFlow学习的一些练习代码
     * github： https://github.com/tensorflow
     * tensorflow2.0 beta教程 :https://www.tensorflow.org/beta/
 * 查看jupyternotebook：https://nbviewer.jupyter.org/
-
+* 网络编辑和运行NotebooksGoogle Colab：https://colab.research.google.com/
 
 ![tensors_flowing图](https://www.tensorflow.org/images/tensors_flowing.gif)
 
