@@ -12,31 +12,53 @@ TensorFlow学习的一些练习代码
     * tensorflow2.0 beta教程 :https://www.tensorflow.org/beta/
 * 查看jupyternotebook：https://nbviewer.jupyter.org/
 * 网络编辑和运行NotebooksGoogle Colab：https://colab.research.google.com/
-
+* tensors_flowing
 ![tensors_flowing图](https://www.tensorflow.org/images/tensors_flowing.gif)
 
 
 
-入门文档（未看）：https://tf.wiki/zh/basic.html
+简单粗暴 TensorFlow 2 文档：https://tf.wiki/zh/basic.html
 
 
 ### Tutorial(教程)
 
-* [视频·google基于tensorflow的机器学习课程(免费中文)](https://developers.google.cn/machine-learning/crash-course/)
->学於20190805
+* [安装](00TensorFlow基本概念和安装方法.ipynb)
+* [查看tf和py版本](02.01tensorflow学习笔记一：查看版本号.ipynb)
 
-* [bilibili视频·莫凡-tensorflow搭建自己的神经网络](https://www.bilibili.com/video/av16001891?zw)
+#### [bilibili-深度学习框架Tensorflow学习与应用](https://www.bilibili.com/video/BV1kW411W7pZ)[初学2020.07][tf1.x][13.5h]
 
-视频发布很早，但对应讲解莫凡大佬[github代码](https://github.com/MorvanZhou/Tensorflow-Tutorial)有更新，所以，看视频的时候，代码还是看github上的吧
->学於201710
+* 环境：tf1.x：'1.14.0' py35
+* 莫烦没有讲具体函数的功能，相比还是这个视频好
+
+code:[深度学习框架Tensorflow学习与应用](./深度学习框架Tensorflow学习与应用)
+* [x] 第一课 Tensorflow简介，Anaconda安装，Tensorflow的CPU版本安装。
+* [x] **第二课 Tensorflow的基础使用，包括对图(graphs),会话(session),张量(tensor),变量(Variable)的一些解释和操作。**
+* [ ] 第三课 Tensorflow线性回归以及分类的简单使用，softmax介绍。
+* [ ] 第四课 交叉熵(cross-entropy)，过拟合，dropout以及Tensorflow中各种优化器的介绍。
+* [ ] 第五课 使用Tensorboard进行结构可视化，以及网络运算过程可视化。
+* [ ] 第六课 卷积神经网络CNN的讲解，以及用CNN解决MNIST分类问题。
+* [ ] 第七课 递归神经网络LSTM的讲解，以及LSTM网络的使用。
+* [ ] 第八课 保存和载入模型，使用Google的图像识别网络inception-v3进行图像识别。
+* [ ] 第九课 Tensorflow的GPU版本安装。设计自己的网络模型，并训练自己的网络模型进行图像识别。
+* [ ] 第十课 多任务学习以及验证码识别。
+* [ ] 第十一课 word2vec讲解和使用，cnn解决文本分类问题。
+* [ ] 第十二课 语音处理以及使用LSTM构建语音分类模型。
+
+---
+
+
+* [视频·google基于tensorflow的机器学习课程(免费中文)](https://developers.google.cn/machine-learning/crash-course/)[学於20190805]
+
+
+* [bilibili视频·莫凡-tensorflow搭建自己的神经网络](https://www.bilibili.com/video/av16001891?zw)[学於201710]
+>视频发布很早，但对应讲解莫凡大佬[github代码](https://github.com/MorvanZhou/Tensorflow-Tutorial)有更新，所以，看视频的时候，代码还是看github上的吧
+
 
 
 #### [视频·google基于tensorflow的机器学习课程(免费中文)](https://developers.google.cn/machine-learning/crash-course/)
 
 * 机器学习术语表：https://developers.google.cn/machine-learning/glossary/
-
 * [01框架处理（15 分钟）机器学习中的监督学习-标签&特征·样本&模型·回归&分类](./google_tensorflow/01框架处理.md)
-
 
 * [02深入了解机器学习（20 分钟）什么是损失函数，权重weight和 bias 是什么](/google_tensorflow/02深入了解机器学习.md)
 * [03降低损失（60 分钟）两种梯度下降，SGD,及对lr学习率的实验](/google_tensorflow/03降低损失.md)
@@ -56,12 +78,11 @@ TensorFlow学习的一些练习代码
 * 17嵌入（80 分钟）什么是嵌入，这是干什么的，怎样用好。
 
 
-
-#### [bilibili视频·莫凡-tensorflow搭建自己的神经网络](https://www.bilibili.com/video/av16001891?zw)
-
+#### [bilibili视频·莫凡-tensorflow搭建自己的神经网络](https://www.bilibili.com/video/av16001891?zw)[初学2019.08]
 
 
-#### [bilibili视频·tensorflow2.0入门与实战 2019年](https://www.bilibili.com/video/av62215565?from=search&seid=1287497745063342076)
+
+#### [bilibili视频·tensorflow2.0入门与实战 2019年](https://www.bilibili.com/video/av62215565?from=search&seid=1287497745063342076)[初学2019.08]
 
 * tensorflow2.0教程文档：https://github.com/czy36mengfei/tensorflow2_tutorials_chinese
 * tensorflow2.0 beta :https://www.tensorflow.org/beta/
@@ -70,13 +91,6 @@ TensorFlow学习的一些练习代码
     * 服务器，边缘设备，网页，any语言0rp平台，皆可训练部署模型
     * tf.keras,Eager模式和自定义训练说,tf.data，tf.function(自动图运算)。模型保存于可视化，Tensorboard可视化
 
-
-
-#### [bilibili-深度学习框架Tensorflow学习与应用](https://www.bilibili.com/video/BV1kW411W7pZ)[初学2020.07][tf1.x][13.5h]
-
-* code:[深度学习框架Tensorflow学习与应用](./深度学习框架Tensorflow学习与应用)
-
-* 莫烦没有讲具体函数的功能，相比还是这个视频好
 
 
 ### install
