@@ -74,9 +74,9 @@ TensorFlow学习的一些练习代码
 
 #### [bilibili-深度学习框架Tensorflow学习与应用](https://www.bilibili.com/video/BV1kW411W7pZ)[初学2020.07][tf1.x][13.5h]
 
-* [深度学习框架Tensorflow学习与应用](./深度学习框架Tensorflow学习与应用)
+* code:[深度学习框架Tensorflow学习与应用](./深度学习框架Tensorflow学习与应用)
 
-* 
+* 莫烦没有讲具体函数的功能，相比还是这个视频好
 
 
 ### install
