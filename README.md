@@ -29,6 +29,7 @@ TensorFlow学习的一些练习代码
 
 * 环境：tf1.x：'1.14.0' py35
 * 莫烦没有讲具体函数的功能，相比还是这个视频好
+* 笔记：https://www.yuque.com/huangzhongqing/tensorflow/yiggki
 
 code:[深度学习框架Tensorflow学习与应用](./深度学习框架Tensorflow学习与应用)
 * [x] 第一课 Tensorflow简介，Anaconda安装，Tensorflow的CPU版本安装。
