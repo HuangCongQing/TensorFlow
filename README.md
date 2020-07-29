@@ -45,6 +45,8 @@ code:[深度学习框架Tensorflow学习与应用](./深度学习框架Tensorflo
 * [ ] 第十一课 word2vec讲解和使用，cnn解决文本分类问题。
 * [ ] 第十二课 语音处理以及使用LSTM构建语音分类模型。
 
+参考： https://github.com/Parker-Lyu/TensorFLow-Learning
+
 ---
 
 
