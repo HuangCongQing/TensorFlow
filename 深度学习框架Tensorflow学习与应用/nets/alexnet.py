@@ -43,9 +43,9 @@ trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)
 
 
 def alexnet_v2_arg_scope(weight_decay=0.0005):
-  with slim.arg_scope([slim.conv2d, slim.fully_connected],
-                      activation_fn=tf.nn.relu,
-                      biases_initializer=tf.constant_initializer(0.1),
+  with slim.arg_scope([slim.conv2d, slim.fully_connected], # 三块作用于下
+                      activation_fn=tf.nn.relu, # 激活函数
+                      biases_initializer=tf.constant_initializer(0.1), # 偏置值
                       weights_regularizer=slim.l2_regularizer(weight_decay)):
     with slim.arg_scope([slim.conv2d], padding='SAME'):
       with slim.arg_scope([slim.max_pool2d], padding='VALID') as arg_sc:
@@ -74,7 +74,8 @@ def alexnet_v2(inputs,
         random_normal_initializer to xavier_initializer.
 
   Args:
-    inputs: a tensor of size [batch_size, height, width, channels].
+  # =================================== 4个参数 [batch_size, height, width, channels] ========================
+    inputs: a tensor of size [batch_size, height, width, channels]. 
     num_classes: the number of predicted classes. If 0 or None, the logits layer
     is omitted and the input features to the logits layer are returned instead.
     is_training: whether or not the model is being trained.
