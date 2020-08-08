@@ -1,3 +1,11 @@
+'''
+Description: 
+Author: HCQ
+Company(School): UCAS
+Date: 2020-08-08 10:47:14
+LastEditors: HCQ
+LastEditTime: 2020-08-08 14:17:30
+'''
 #coding:utf-8
 import tensorflow as tf
 import numpy as np
@@ -34,8 +42,8 @@ class TextCNN(object):
                tf.random_uniform([vocab_size, embedding_size], -1.0, 1.0),
                name="W")
             # [batch_size, sequence_length, embedding_size]
-            self.embedded_chars = tf.nn.embedding_lookup(self.W, self.input_x)
-            # 添加一个维度，[batch_size, sequence_length, embedding_size, 1]
+            self.embedded_chars = tf.nn.embedding_lookup(self.W, self.input_x)# 根据数字编号抽取对应的行
+            # 添加一个维度，[batch_size, sequence_length, embedding_size, 1] # 可以看成一张图片了。
             self.embedded_chars_expanded = tf.expand_dims(self.embedded_chars, -1)
 
         # Create a convolution + maxpool layer for each filter size
@@ -68,7 +76,7 @@ class TextCNN(object):
         num_filters_total = num_filters * len(filter_sizes)
         self.h_pool = tf.concat(pooled_outputs, 3)
         # 把池化层输出变成一维向量
-        self.h_pool_flat = tf.reshape(self.h_pool, [-1, num_filters_total])
+        self.h_pool_flat = tf.reshape(self.h_pool, [-1, num_filters_total]) # 最后输出
         
         # Add dropout
         with tf.name_scope("dropout"):
