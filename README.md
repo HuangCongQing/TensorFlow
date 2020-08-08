@@ -31,6 +31,8 @@ TensorFlow学习的一些练习代码
 * 莫烦没有讲具体函数的功能，相比还是这个视频好
 * 笔记：https://www.yuque.com/huangzhongqing/tensorflow/yiggki
 
+官方代码: https://pan.baidu.com/s/1F1A32twUxxqt2W7drxm78w
+
 code:[深度学习框架Tensorflow学习与应用](./深度学习框架Tensorflow学习与应用)
 * [x] 第一课 Tensorflow简介，Anaconda安装，Tensorflow的CPU版本安装。
 * [x] **第二课 Tensorflow的基础使用，包括对图(graphs),会话(session),张量(tensor),变量(Variable)的一些解释和操作。**
@@ -45,7 +47,7 @@ code:[深度学习框架Tensorflow学习与应用](./深度学习框架Tensorflo
 * [ ] 第十一课 word2vec讲解和使用，cnn解决文本分类问题。
 * [ ] 第十二课 语音处理以及使用LSTM构建语音分类模型。
 
-部分参考： https://github.com/Parker-Lyu/TensorFLow-Learning
+参考： https://github.com/Parker-Lyu/TensorFLow-Learning
 
 ---
 
